@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name"> V.S.T. (Services) Ltd.</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_company">VST celebrates 30 years since delivering first thin-film high vacuum deposition / coating system. VST engineering team is offering custom made thin film nanolayers Sputtering, E.B. Gun, Thermal, Ion Beam, Plasma, Organic Low Temperature deposition systems meeting your exact application specifications and requirements at no extra cost. VST produce equipment meant for deposition, etching, or testing in High and Ultra High Vacuum.
+</string>
+    <string name="about">about_company </string>
+    <string name="title_activity_main__app">Main_App</string>
+    <string name="company">VST Team goal is to ensure your total satisfaction with the services and products that we provide in high vacuum technology, deposition of thin layers of metal, dielectrics and organic materials.
+VST has served over hundred of satisfied customers around the world, earning a reputation for excellence throughout the High Vacuum and Ultra High Vacuum industry and scientific community users of thin film deposition equipment such as Thermal, Electron Beam, Ion Beam and Magnetron Sputtering as well as Low Temperature Evaporators for Organic Semiconductors known as OLED.
+Our design engineers developed highly reliable solutions for Co-Sputtering using combine DC Pulsed and RF power supplies, at partial pressure of reactive process gases.
+For OLED we integrate our systems with Inert Gas Gloveboxes. Creating a full processing line in inert atmosphere.
+VST systems possess features such as flexible design, long life and high reliability with acceptable operation and maintenance costs. Our Cluster Tools combines the accuracy of robot samples transfer with ease of maintenance.
+The cluster Tools are often combined with Inert Gas Gloveboxes for OLED encapsulation as a final product.
+Product inquiries are shortly followed by detailed documentation and suggestions for your review.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="system1">The next generation Sputtering Deposition systems series TFSP-840 are flexible completely customizable magnetron sputtering system designed specifically for R and D and prototype production.
+Multi-gun capability, co-sputtering, sequential sputtering without breaking vacuum and reactive sputtering (with active gas mixtures) are possible</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="system2">Sputtering deposition system series TFSP-995 equipped with three 6" semi balanced magnetron sputter sources.</string>
+    <string name="system3">Using all known sputtering sources including DC, DC pulsed, RF and HIPIMS power supplies we are covering reactive and      none-reactive sputtering. The sample temperature can be controlled from RT to high temperature 800˚C during thin film deposition. Sample translation and rotation can be combined with sophisticate load lock sample manipulation. Our sputter deposition system can be supplied with up to 4 sources, targets and with or without load lock chambers and linear transfer mechanism. Source for pre-cleaning, are intended for co-sputtering mode. </string>
+</resources>

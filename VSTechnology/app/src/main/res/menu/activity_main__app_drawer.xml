@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Contacts"
+
+            />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="about company" />
+        <item
+            android:id="@+id/nav_sputtering_system"
+            android:icon="@drawable/ic_system"
+            android:title="Sputtering System" />
+        <item
+            android:id="@+id/nav_evaporation_system"
+            android:icon="@drawable/ic_system2"
+            android:title="Evaporation System" />
+        <item
+            android:id="@+id/nav_inert_gas_glovebox"
+            android:icon="@drawable/ic_system3"
+            android:title="Inert Gas Glovebox System" />
+    </group>
+
+</menu>

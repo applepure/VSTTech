@@ -1,0 +1,208 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_home_paje"
+    tools:context="com.example.annakostova.vstechnology.fragment.FragmentEvaporationSystem">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Evaporation System"
+        android:layout_marginTop="20dp"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal|top"  />
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/system3"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_marginTop="160sp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cv"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/person_photo"
+                    android:src="@drawable/eva1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_name"
+                    android:layout_toRightOf="@+id/person_photo"
+                    android:layout_alignParentTop="true"
+                    android:text="462 Series"
+                    android:textSize="30sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_age"
+                    android:layout_toRightOf="@+id/person_photo"
+                    android:text="The TFDS-462 Thin film deposition system series are designed for R and D laboratories to offer best value to cost ratio."
+                    android:textSize="6sp"
+                    android:layout_below="@+id/person_name"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cv2"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/person_photo2"
+                    android:src="@drawable/eva2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_name2"
+                    android:layout_toRightOf="@+id/person_photo2"
+                    android:layout_alignParentTop="true"
+                    android:text="TFDS-462B"
+                    android:textSize="30sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_age2"
+                    android:layout_toRightOf="@+id/person_photo2"
+                    android:text=" TFDS-462B D-shape box chamber High Vacuum Thin Film Deposition System customized to your needs. System designed and built per customer specifications"
+                    android:textSize="8sp"
+                    android:layout_below="@+id/person_name2"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cv3"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/person_photo3"
+                    android:src="@drawable/eva3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_name3"
+                    android:layout_toRightOf="@+id/person_photo3"
+                    android:layout_alignParentTop="true"
+                    android:text="TFDS-462T"
+                    android:textSize="30sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_age3"
+                    android:layout_toRightOf="@+id/person_photo3"
+                    android:text="TFDS-462T low cost bell jar type deposition system designed for research and development"
+                    android:textSize="8sp"
+                    android:layout_below="@+id/person_name3"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cv4"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/person_photo4"
+                    android:src="@drawable/eva4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_name4"
+                    android:layout_toRightOf="@+id/person_photo4"
+                    android:layout_alignParentTop="true"
+                    android:text="TFDS- 462U"
+                    android:textSize="30sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_age4"
+                    android:layout_toRightOf="@+id/person_photo4"
+                    android:text="Deposition System TFDS- 462U for coating thin films of metals on substrate materials such as metals, semiconductors or glass"
+                    android:textSize="8sp"
+                    android:layout_below="@+id/person_name4"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

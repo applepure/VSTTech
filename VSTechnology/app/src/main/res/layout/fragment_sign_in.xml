@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:gravity="fill_vertical"
+    android:background="#ffffff"
+    tools:context=".fragment.FragmentSignIn">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_marginTop="185dp"
+    android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:id="@+id/lstEmail"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_below="@+id/txtVst"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textStyle="normal"/>
+
+
+    <EditText
+            android:id="@+id/lstPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginLeft="10dp"
+            android:imeActionId="@+id/login"
+            android:imeActionLabel="action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:layout_below="@+id/lstEmail"
+            android:textStyle="normal"/>
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#303F9F"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/lstPassword"
+        android:background="@drawable/button"
+        android:text="sign in" />
+
+</LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.annakostova.vstechnology.fragment.FragmentAbouutCompany"
+    android:background="@drawable/side_home_paje">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="157dp"
+        android:text="About Company"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="292dp"
+        android:src="@drawable/abouttttt2"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="@string/company"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"/>
+
+</FrameLayout>

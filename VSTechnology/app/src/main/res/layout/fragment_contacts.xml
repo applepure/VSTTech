@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.annakostova.vstechnology.fragment.FragmentContacts"
+    android:background="@drawable/side_home_paje">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/contact2"
+        android:id="@+id/tmuna"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textSize="25dp"
+        android:id="@+id/contacts"
+        android:layout_marginTop="300dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/contacts">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailContacts"
+        android:autoLink="email"
+        android:layout_margin="6dp"
+        android:background="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textColor="#339cc2"
+        android:text="E-mail: angel@vstser.com "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneContacts"
+        android:textIsSelectable="true"
+        android:layout_margin="6dp"
+        android:textSize="16sp"
+        android:text="Phone: +972-3-9247710/2/3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:textSize="16sp"
+        android:text="Fax:     +972-3-9247711"/>
+    </LinearLayout>
+
+</RelativeLayout>
